@@ -13,6 +13,27 @@
       margin: 0 auto;
       padding: 20px;
     }
+    .content-wrapper {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .logo-container {
+      flex-shrink: 0;
+      width: 100px;
+    }
+    .logo-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    .facebook-partner-logo {
+      max-width: 60px;
+      display: block;
+      margin-top: 10px;
+    }
+    .content {
+      flex-grow: 1;
+    }
     .date {
       color: #666;
       margin-bottom: 20px;
@@ -41,13 +62,21 @@
   </style>
 </head>
 <body>
-  <p class="date">September 2, 2024</p>
-  <p>Thank you to our wonderful partners for trusting us in managing hundreds of millions of dollars on social, and creating some of the most viral advertisements the world has ever seen.</p>
-  <p>It has been an excellent and prosperous 9 years, and it is time to end on a high note.</p>
-  <p>We are no longer accepting new clients.</p>
-  <div class="signature">
-    <p>So Long, and Thanks for All the Fish,</p>
-    <p>The Kitty's Co Team</p>
+  <div class="content-wrapper">
+    <div class="logo-container">
+      <img src="logos/Kittys iphone logo.png" alt="Kitty's Co Logo">
+      <img src="logos/facebook-marketing-partner-vector-logo.svg" alt="Facebook Marketing Partner" class="facebook-partner-logo">
+    </div>
+    <div class="content">
+      <p class="date">September 2, 2024</p>
+      <p>Thank you to our wonderful partners for trusting us in managing hundreds of millions of dollars, and creating some of the most viral advertisements the world has ever seen.</p>
+      <p>It has been an excellent and prosperous 9 years, and it is time to end on a high note.</p>
+      <p>We are no longer accepting new clients.</p>
+      <div class="signature">
+        <p>So Long, and Thanks for All the Fish,</p>
+        <p>The Kitty's Co Team</p>
+      </div>
+    </div>
   </div>
 
   <div class="logo-wall">
