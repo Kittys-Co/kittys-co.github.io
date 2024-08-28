@@ -12,6 +12,7 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
+      font-size: 16px;
     }
     .content-wrapper {
       display: flex;
@@ -58,6 +59,41 @@
       max-width: 100px;
       max-height: 50px;
       object-fit: contain;
+    }
+
+    /* Media queries for larger devices */
+    @media screen and (min-width: 1024px) {
+      body {
+        max-width: 1000px;
+        font-size: 18px;
+      }
+      .logo-container {
+        width: 120px;
+      }
+      .facebook-partner-logo {
+        max-width: 72px;
+      }
+      .logo-wall img {
+        max-width: 120px;
+        max-height: 60px;
+      }
+    }
+
+    @media screen and (min-width: 1440px) {
+      body {
+        max-width: 1200px;
+        font-size: 20px;
+      }
+      .logo-container {
+        width: 140px;
+      }
+      .facebook-partner-logo {
+        max-width: 84px;
+      }
+      .logo-wall img {
+        max-width: 140px;
+        max-height: 70px;
+      }
     }
   </style>
 </head>
